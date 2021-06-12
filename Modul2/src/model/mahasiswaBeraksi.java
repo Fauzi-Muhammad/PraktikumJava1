@@ -2,7 +2,7 @@ package model;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java .util.Date;
+import java.util.Date;
 
 public class mahasiswaBeraksi {
     public static void main(String[] args) throws ParseException{
