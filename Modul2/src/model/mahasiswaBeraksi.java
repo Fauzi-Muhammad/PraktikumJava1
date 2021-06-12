@@ -11,12 +11,12 @@ public class mahasiswaBeraksi {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(polaTanggal);
 
         mahasiswa mahasiswa = new mahasiswa();
-        mahasiswa.npm = "19639999";
-        mahasiswa. nama ="Sembilu";
-        mahasiswa.tanggalLahir = simpleDateFormat.parse("09-09-2009");
+        mahasiswa.npm = "19630712";
+        mahasiswa. nama ="Muhammad Fauzi";
+        mahasiswa.tanggalLahir = simpleDateFormat.parse("23-06-2001");
 
-        System .out .println ( "Nama  \t \t \t  : " + mahasiswa.nama);
-        System .out .println ( "NPM  \t\t\t  : "  +  mahasiswa.npm);
+        System .out .println ( "Nama  \t \t \t : " + mahasiswa.nama);
+        System .out .println ( "NPM  \t\t\t : "  +  mahasiswa.npm);
         System .out .println ( "Tanggal Lahir \t : " + mahasiswa .tanggalLahir );
 
         mahasiswa   mahasiswa2   = new   mahasiswa();
@@ -27,6 +27,10 @@ public class mahasiswaBeraksi {
         System .out .println ("Nama  \t \t \t : " + mahasiswa2. nama );
         System .out .println ( "NPM  \t \t\t : " + mahasiswa2. npm );
         System .out .println ( "Tanggal Lahir \t : " + simpleDateFormat.format(mahasiswa2 .tanggalLahir ));
+
+        mahasiswa.tampilkanAtribut();
+        mahasiswa.menyapa();
+        System.out.println("Usiaku\t\t\t : " + mahasiswa.hitungUsia() + " tahun");
         }
     }
 
